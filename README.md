@@ -28,7 +28,7 @@ npm add @baloise/design-system-components-angular@12.x
 
 #### Did you use icons?
 
-[Full documentation](https://baloise-design-system.vercel.app/?path=/story/development-migration-migration-from-11-x-to-12-x--page#load-custom-icons)
+[Load Custom Icons documentation](https://baloise-design-system.vercel.app/?path=/story/development-migration-migration-from-11-x-to-12-x--page#load-custom-icons)
 
 Open your `app.module.ts` and import all the icons.
 
@@ -55,7 +55,7 @@ export class AppModule {}
 
 #### Did you customize components styles with SASS variables?
 
-[Full documentation](https://baloise-design-system.vercel.app/?path=/story/development-migration-migration-from-11-x-to-12-x--page#lazy-loading-component-styles)
+[Lazy Loading Component Styles documentation](https://baloise-design-system.vercel.app/?path=/story/development-migration-migration-from-11-x-to-12-x--page#lazy-loading-component-styles)
 
 The prop mode="sass" informs the Design System to not lazy-load the component styles.
 
@@ -74,7 +74,7 @@ $font-path: '~assets/fonts';
 
 #### Did you use spacing CSS helper classes like `mt-6`?
 
-[Full documentation](https://baloise-design-system.vercel.app/?path=/story/development-migration-migration-from-11-x-to-12-x--page#spacing)
+[CSS-Helper Reduction documentation](https://baloise-design-system.vercel.app/?path=/story/development-migration-migration-from-11-x-to-12-x--page#spacing)
 
 To reactivate the spacing with numbers set the variable `$spacing-legacy-numbering`.
 
