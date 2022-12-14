@@ -4,13 +4,13 @@
 
 Install all node packages.
 
-```bash
+```
 npm install
 ```
 
 To start the angular project on [http://localhost:4200/](http://localhost:4200/).
 
-```bash
+```
 npm start
 ```
 
@@ -22,7 +22,7 @@ The complete [Migration Guide for v12 can be found here.](https://baloise-design
 
 To update the Design System to version 12 run the following command
 
-```bash
+```
 npm add @baloise/design-system-components-angular@12.x
 ```
 
@@ -65,7 +65,7 @@ The prop mode="sass" informs the Design System to not lazy-load the component st
 
 Next we need to load the missing SASS styles manually.
 
-```sass
+```scss
 $font-path: '~assets/fonts';
 
 @import '@baloise/design-system-components/src/styles/global';
@@ -78,7 +78,7 @@ $font-path: '~assets/fonts';
 
 To reactivate the spacing with numbers set the variable `$spacing-legacy-numbering`.
 
-```sass
+```scss
 $font-path: '~assets/fonts';
 $spacing-legacy-numbering: true;
 
