@@ -11,8 +11,11 @@ import {
   BalHeadingModule,
   BalTextModule,
   BalInputModule,
+  BalNumberInputModule,
 } from '@baloise/design-system-components-angular';
 import { AppComponent } from './app.component';
+
+import { balIconAccount } from '@baloise/design-system-icons';
 
 @NgModule({
   declarations: [AppComponent],
@@ -27,6 +30,9 @@ import { AppComponent } from './app.component';
         region: 'CH',
         language: 'en',
         allowedLanguages: ['de', 'fr', 'it', 'en'],
+        icons: {
+          balIconAccount,
+        },
       },
     }),
     BalLogoModule,
@@ -37,6 +43,7 @@ import { AppComponent } from './app.component';
     BalHeadingModule,
     BalTextModule,
     BalInputModule,
+    BalNumberInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

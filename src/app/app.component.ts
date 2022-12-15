@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { balIconStarFull } from '@baloise/design-system-icons'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+
+  iconStarFull = balIconStarFull
 
 }

@@ -24,7 +24,7 @@
       <bal-card-content>
         <div class="is-flex fg-large">
           <bal-icon name="account" size="large"></bal-icon>
-          <bal-icon name="star-full" size="large"></bal-icon>
+          <bal-icon [svg]="iconStarFull" size="large"></bal-icon>
         </div>
       </bal-card-content>
     </bal-card>
@@ -46,20 +46,21 @@
         There has been a lot of duplications and aliases, which increased the css file by 66%.
       </bal-card-subtitle>
       <bal-card-content>
-        <h1 class="title is-1">Typography Size Aliases</h1>
+        <h1 class="title is-size-xxx-large">Typography Size Aliases</h1>
+        <bal-heading level="h1">Typography Size Aliases</bal-heading>
         <br />
-        <div class="has-background-primary-light">Color Aliases</div>
+        <div class="has-background-primary-1">Color Aliases</div>
         <br />
-        <p class="has-text-invalid">Text-Color Aliases</p>
+        <p class="has-text-danger">Text-Color Aliases</p>
         <br />
-        <div class="has-border-active">Border-Color Aliases</div>
+        <div class="has-border-primary">Border-Color Aliases</div>
         <br />
-        <div class="has-border-primary has-radius">Radius</div>
+        <div class="has-border-primary has-radius-normal">Radius</div>
         <br />
-        <div class="has-background-grey-2 has-shadow">Shadow</div>
+        <div class="has-background-grey-2 has-shadow-normal">Shadow</div>
         <br />
         <div class="has-background-yellow-2">
-          <div class="has-background-green-2 p-4 m-6">Spacing</div>
+          <div class="has-background-green-2 p-normal m-large">Spacing</div>
         </div>
       </bal-card-content>
     </bal-card>
@@ -72,7 +73,7 @@
         time we used a bal-input we also loaded all of that with us.
       </bal-card-subtitle>
       <bal-card-content>
-        <bal-input number-input decimal="2" value="1234.56"></bal-input>
+        <bal-number-input decimal="2" value="1234.56"></bal-number-input>
       </bal-card-content>
     </bal-card>
 
